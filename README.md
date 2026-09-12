@@ -593,8 +593,6 @@ promotion.
 | Outbound IP connectivity   | ping 8.8.8.8                         | Replies from external IP               | Successful                             |
 | Domain presence            | Active Directory Users and Computers | homelab.local visible                  | Successful                             |
 | Domain administrator login | Windows sign-in                      | HOMELAB\Administrator available        | Successful                             |
-| DNS/domain resolution      | nslookup homelab.local               | Domain resolves through lab DNS        | Verify/retain screenshot in next phase |
-| DC hostname resolution     | ping DC01                            | DC01 resolves to the domain controller | Verify/retain screenshot in next phase |
 
 # Troubleshooting and Lessons Learned
 
