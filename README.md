@@ -667,25 +667,3 @@ Users and Computers. The environment is now ready to be expanded with
 organizational units, users, security groups, a Windows client VM,
 domain joining, Group Policy, and additional troubleshooting
 demonstrations.
-
-## Recommended Next Phase for the GitHub Portfolio
-
-65. Assign DC01 a stable/static IPv4 address on the lab network and
-    point its DNS configuration appropriately.
-
-66. Create organizational units for users, computers, and
-    administration.
-
-67. Create sample users and security groups.
-
-68. Create a Windows client VM and attach it to the same NAT Network.
-
-69. Set the client DNS server to DC01 and join the client to
-    homelab.local.
-
-70. Sign in to the client with a domain user account.
-
-71. Create and apply a Group Policy Object.
-
-72. Document testing with gpupdate /force, gpresult /r, nslookup, ping,
-    and domain login screenshots.
